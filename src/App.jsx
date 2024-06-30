@@ -3,12 +3,13 @@ import HomePage from "./pages/home"
 import { Route, Routes } from 'react-router-dom';
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
+import FooterSection from "./global/footer";
 
 function App() {
 
   return (
     <>
-    <div>
+    <div className="bg-bgHomeColor">
     <HeaderSection />
 
 <Routes>
@@ -18,7 +19,7 @@ function App() {
     <Route path="/contact" element={<ContactPage />} />
   </Routes>
   
-
+    <FooterSection />
     </div>
 
     </>
