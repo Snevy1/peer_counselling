@@ -1,7 +1,9 @@
 import { FaCheckCircle } from "react-icons/fa";
-import RevealOnScroll from "./revealScroll";
+//import RevealOnScroll from "./revealScroll";
 
 function AboutPage(){
+    
+
     return (<div className="text-bannertextColor font-medium font-sans">
         <h2 className="text-center mt-5 font-bold font-serif">About Us</h2>
         <section className=" bg-firstScetion py-6 px-5 mt-5 text-white">
