@@ -33,7 +33,7 @@ function HomePage(){
       </h2>
       <p className="mt-2">PC Egerton connects you to caring listeners </p>
       <p>for free emotional support.</p>
-      <button className="bg-buttonColor px-8 py-3 rounded-xl mt-3 mb-3 font-sans font-bold"><a href="/contact">Get Started</a></button>
+      <button className="bg-buttonColor px-8 py-3 rounded-xl mt-3 mb-3 font-sans font-bold"><a href="https://peer-counselling.vercel.app/contact">Get Started</a></button>
     </article>
     <article>
     </article>
