@@ -8,7 +8,7 @@
  
  function ContactPage(){
     return(
-    <div>
+    <div className="px-0 mx-0">
         <section className="font-sans">
         <h2 className="text-center my-5 font-bold"> Contact Us</h2>
         <article>
@@ -18,18 +18,19 @@
 
         </section>
 
-        <section className="relative p-10 ">
-            <article className="grid grid-cols-2 bg-contactColor rounded-3xl  ">
-                <div>
+        <section className="relative lg:p-10 ">
+            <article className="grid lg:grid-cols-2 bg-contactColor rounded-3xl  ">
+                <div className="py-20 lg:py-0">
                   <h2>This is the first section</h2>
+                  <div></div>
                 </div>
-                <div>
+                <div className="mt-20 py-5 sm:mt-0 sm:py-0">
                 <ContactForm />
 
                 </div>
 
             </article>
-            <article className="absolute bg-buttonColor text-whiteColor absolute__contact py-5 px-10 rounded-3xl">
+            <article className="absolute bg-buttonColor text-whiteColor absolute__contact lg:py-5 lg:px-10 rounded-3xl top-0 ">
                 <div>
                     <h2 className="text-center">Contact Us</h2>
                     <div className="p-6">

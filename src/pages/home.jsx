@@ -24,21 +24,21 @@ function HomePage(){
   style={{ backgroundImage: `url(${peercounselling})` }}
 >
   <div className="absolute inset-0 bg-black bg-opacity-40 shadow-lg"></div>
-  <div className="relative ml-20 welcome-article">
+  <div className="relative  ml-5 sm:ml-10 md:ml-20 welcome-article">
     <article className="pt-10">
-    <h2 className="text-h2section1Color text-4xl font-sans font-bold mb-5">PEER COUNSELLORS ASSOCIATION EGERTON</h2>
+    <h2 className="text-h2section1Color text-4xl font-sans font-normal sm:font-bold mb-5">PEER COUNSELLORS ASSOCIATION EGERTON</h2>
       <h2 className="text-h2section1Color text-4xl font-sans font-bold">Need someone to talk to?</h2>
       <h2 className="text-h2section1Color text-4xl font-bold">
         Our counsellors and listeners are standing by.
       </h2>
       <p className="mt-2">PC Egerton connects you to caring listeners </p>
       <p>for free emotional support.</p>
-      <button className="bg-buttonColor px-8 py-3 rounded-xl mt-3 mb-3 font-sans font-bold">Get Started</button>
+      <button className="bg-buttonColor px-8 py-3 rounded-xl mt-3 mb-3 font-sans font-bold"><a href="/contact">Get Started</a></button>
     </article>
     <article>
     </article>
   </div>
-  <div className="grid grid-cols-3 gap-10 ml-20 mb-7 relative mt-10">
+  <div className="grid  gap:5 md:grid-cols-3 md:gap-10  ml-5 sm:ml-20 mb-7 relative mt-10">
     <article>
       <IoIosChatbubbles className="text-5xl ml-10" />
       <h2 className="h2section1Color text-4xl mb-2">Free 24/7 Chat</h2>
@@ -50,7 +50,7 @@ function HomePage(){
       <p>Confidential online therapy & coaching with licensed counselors.</p>
     </article>
     <article>
-      <GiTreeGrowth className="text-5xl ml-20" />
+      <GiTreeGrowth className="text-5xl  ml-10 sm:ml-20" />
       <h2 className="h2section1Color text-4xl mb-2">Grow at Your Own Pace</h2>
       <p>Explore self-help guides & growth paths for proven tips and advice on how to feel better.</p>
     </article>
@@ -128,7 +128,7 @@ function HomePage(){
         
         
         <section>
-                <article className="testimonial bg-bannerColor p-10">
+                <article className="testimonial grid gap-5 bg-bannerColor p-5 sm:p-10">
 
                     <img src={peer4} className="w-full"/>
                     <RevealOnScroll>
@@ -140,7 +140,7 @@ function HomePage(){
 so you can chat confidentially whenever you need to. You can also join our lively teen community forums and chat rooms to share with peers who understand what you’re going through. Get support and make new friends along the way.
 
 </p>
-<button className="bg-buttonColor p-3 rounded-md">Get Started</button>
+<button className="bg-buttonColor p-3 rounded-md mt-4"><a href="/contact">Get Started</a></button>
 </div>
 
 
@@ -149,21 +149,21 @@ so you can chat confidentially whenever you need to. You can also join our livel
                 </article>
 
                 
-                <article className="testimonial bg-section2Color p-10">
-                    <div className="mr-5">
+                <article className="testimonial grid gap-5 bg-section2Color p-5 sm:p-10">
+                    <div className="ml-5">
                         <h2>PROFESSIONAL THERAPY</h2>
                         <h3 >Get support with online therapy</h3>
                         <p >Want a little extra help? You can get ongoing support, treatment and guidance from a licensed therapist when you sign up for online therapy.
 
 </p>
-                        <button className="bg-buttonColor p-3 rounded-md">Get Started</button>
+                        <button className="bg-buttonColor p-3 rounded-md mt-4"><a href="/contact">Get Started</a></button>
                     </div>
-                    <div>
+                    <div >
                         <div className="relative border-black border-6">
 
                           <img src={peer4} className="w-full" />
                           <RevealOnScroll>
-                          <article className="absolute bg-white rounded-md bottom-0 p-4 mr-10 mb-5 -ml-10 w-52">
+                          <article className="absolute bg-white rounded-md bottom-0  sm:top-0 sm:bottom-0 p-4 sm:mr-10 mb-5 sm:-ml-10  w-52">
                             <h2>Jane</h2>
                             <p>I thank all the students that I have helped as a peer counsellor in the university</p>
                         </article>
@@ -180,7 +180,7 @@ so you can chat confidentially whenever you need to. You can also join our livel
                 
 
                 
-                <article className="testimonial bg-nearFooterColor p-10">
+                <article className="testimonial grid gap-5 bg-nearFooterColor p-5 sm:p-10">
                 <img src={peer4} className="w-full"/>
                 <RevealOnScroll>
                 <div className="ml-5">
@@ -189,7 +189,7 @@ so you can chat confidentially whenever you need to. You can also join our livel
                         <p>They are experts in many conditions, treatment approaches and navigating life’s challenges. Your therapist will provide:
 
 </p>
-                        <button className="bg-buttonColor p-3 rounded-md">Get Started</button>
+                        <button className="bg-buttonColor p-3 rounded-md mt-4"><a href="/contact">Get Started</a></button>
                     </div>
 
                 </RevealOnScroll>

@@ -9,16 +9,24 @@ function App() {
 
   return (
     <>
-    <div className="bg-bgHomeColor">
+    <div className="bg-bgHomeColor p-0 m-0">
     <HeaderSection />
 
-<Routes>
+    <main className="pt-16">
+    <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/about" element={<AboutPage />} />
     
     <Route path="/contact" element={<ContactPage />} />
   </Routes>
+
+    </main>
+
   
+
+    
+
+
     <FooterSection />
     </div>
 

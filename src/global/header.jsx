@@ -1,18 +1,37 @@
 //import { Link } from "react-router-dom";
 import {  Link } from 'react-router-dom';
+import React from 'react';
+//import  { SVGProps } from 'react';
+
+/* export function UilPlus(props: SVGProps<SVGSVGElement>) {
+	return (<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2"></path></svg>);
+}
+ */
+
+import MenuComponent from './menu';
+window.addEventListener('scroll', ()=>{
+  document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0);
+
+});
+
+
 
 
   
   function HeaderSection(){
+  
+
+
+
     return (
-        <div  className='bg-headerColor'>
-      <nav>
-        <ul className='flex justify-end mr-10 p-2'>
-          <li className='mr-4 text-lg text-whiteColor'><Link to="/">Home</Link></li>
-          <li className='mr-4 text-lg text-whiteColor'><Link to="/about">About</Link></li>
-          <li className='mr-4 text-lg text-whiteColor'><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+        <div  >
+        <nav className='fixed top-0 left-0 w-full z-10 bg-headerColor h-10 py-5'>
+        <MenuComponent />
+
+        </nav>
+
+        
+
 
     </div>
   );

@@ -27,8 +27,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='grid gap-5 p-10'>
-        <div className='grid grid-cols-2'>
+    <form onSubmit={handleSubmit} className='grid gap-5  p-5 sm:p-10'>
+        <div className='grid gap-2 sm:grid-cols-2 sm:gap-5'>
         <label>
 
         <input
@@ -71,8 +71,10 @@ const ContactForm = () => {
           value={formData.message || ''}
           onChange={handleChange}
           placeholder='Message'
-          rows="4" cols="50"
+          rows="4"
+          cols="50"
           className='p-2'
+
           required
         />
       </label>

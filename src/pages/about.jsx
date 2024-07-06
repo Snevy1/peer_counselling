@@ -8,7 +8,7 @@ function AboutPage(){
             <h2 className="text-center mb-5 mt-2"><strong>History</strong></h2>
             <p>PCA EGERTON started in 1990. It grew out of a sponsored
                  counsellor training programme and was formed because a specific need of providing professional support for counsellors was identified.</p>
-                 <p>KAPC responded to the demand for all kinds of counselling services. We grew exponentially and now provide the full range of services to promote professional counselling.</p>
+                 <p>PCA responded to the demand for all kinds of counselling services. We grew exponentially and now provide the full range of services to promote professional counselling.</p>
                  <p>Many of our first activities were research projects that focused upon providing counselling services and training. We also concentrated upon young people and their particular needs.</p>
         </section>
         <section className="ml-5 py-5">
@@ -42,7 +42,7 @@ function AboutPage(){
             <h2 className="text-center my-5"><strong>GOVERNANCE</strong></h2>
             <p>PCA EGERTON is a registered Non-Governmental Organisation. It is governed in accordance with its constitution. The most powerful component in the constitution in 
                 the assembly of members and this normally meets once a year when the annual general meeting is held.</p>
-                 <p>The annual general meeting elects the board that have a more direct impact upon the way in which KAPC runs.
+                 <p>The annual general meeting elects the board that have a more direct impact upon the way in which PCA runs.
                      It helps to define policy and influences the formation of annual workplans.</p>
                      <p>The more routine administration is controlled through the Executive Director’s 
                         Committee which attends to the day to day issues that arise.</p>
