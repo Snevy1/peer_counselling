@@ -6,7 +6,9 @@
  import { FaWhatsapp } from "react-icons/fa";
  import { FaInstagram } from "react-icons/fa";
  
+ 
  function ContactPage(){
+
     return(
     <div className="px-0 mx-0">
         <section className="font-sans">
